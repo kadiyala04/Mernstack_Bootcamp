@@ -53,7 +53,7 @@ const Home = () => {
               marginTop: "1rem",
             }}
           >
-            Mahalakshmi URL Shortner
+            URL Shortner
           </Title>
 
           <Text
