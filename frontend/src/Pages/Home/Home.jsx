@@ -53,12 +53,12 @@ const Home = () => {
               marginTop: "1rem",
             }}
           >
-            Your App Name
+            Mahalakshmi URL Shortner
           </Title>
 
           <Text
             size="xl"
-fw={700}
+            fw={700}
             style={{
               color: "#f1f1f1",
               marginTop: "0.8rem",
@@ -66,7 +66,7 @@ fw={700}
               fontWeight: 400,
             }}
           >
-            
+
           </Text>
 
           <Button
