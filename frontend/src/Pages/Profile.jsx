@@ -9,13 +9,13 @@ const Profile = () => {
     const [user, setUser] = useState(null);
 
     const getData = async () => {
-        try {
-            const response = await service.get("user/me");
-            console.log("User Data:", response);
-            setUser(response);
-        } catch (error) {
-            console.error("Error fetching user data:", error);
-        }
+        // try {
+        const response = await service.get("user/me");
+        console.log("User Data:", response);
+        setUser(response);
+        // } catch (error) {
+        //     console.error("Error fetching user data:", error);
+        // }
     };
 
     useEffect(() => {
